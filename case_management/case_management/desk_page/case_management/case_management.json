@@ -1,0 +1,56 @@
+{
+ "cards": [
+  {
+   "hidden": 0,
+   "label": "Tools",
+   "links": "[\n    {\n        \"label\": \"Time Tracking\",\n        \"name\": \"Time Tracking\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"label\": \"Timesheet\",\n        \"name\": \"Timesheet\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"label\": \"Events\",\n        \"name\": \"Events\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"label\": \"Tasks\",\n        \"name\": \"Tasks\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n   {\n        \"label\": \"Note\",\n        \"name\": \"Note\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    }\n]"
+  },
+  {
+   "hidden": 0,
+   "label": "Reports",
+   "links": "[\n    {\n        \"dependencies\": [\n            \"Matter\"\n        ],\n        \"doctype\": \"Matter Report\",\n        \"is_query_report\": true,\n        \"label\": \"Matter Report\",\n        \"name\": \"Matter Report\",\n        \"type\": \"report\"\n    },\n    {\n        \"dependencies\": [\n            \"Matter\"\n        ],\n        \"doctype\": \"Matter Billing\",\n        \"is_query_report\": true,\n        \"label\": \"Matter Billing Summary\",\n        \"name\": \"Matter Billing\",\n        \"type\": \"report\"\n    },\n    {\n        \"dependencies\": [\n            \"Matter\"\n        ],\n        \"doctype\": \"Matter Expense Summary\",\n        \"is_query_report\": true,\n        \"label\": \"Matter Expense Summary\",\n        \"name\": \"Matter Expense Summary\",\n        \"type\": \"report\"\n    }\n\n]"
+  }
+ ],
+ "category": "Modules",
+ "charts": [],
+ "creation": "2020-07-06 00:42:54.579736",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Desk Page",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "idx": 0,
+ "is_standard": 1,
+ "label": "Case Management",
+ "modified": "2020-07-07 22:32:08.235930",
+ "modified_by": "Administrator",
+ "module": "Case Management",
+ "name": "Case Management",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "label": "Matter",
+   "link_to": "Matter",
+   "type": "DocType"
+  },
+  {
+   "label": "Matter Activity",
+   "link_to": "Matter Activity",
+   "type": "DocType"
+  },
+  {
+   "label": "Matter Custom Check List",
+   "link_to": "Matter Custom Check List",
+   "type": "DocType"
+  },
+  {
+   "label": "Practice Area",
+   "link_to": "Practice Area",
+   "type": "DocType"
+  }
+ ],
+ "shortcuts_label": "Matter Management "
+}
