@@ -19,6 +19,8 @@
   "close_date",
   "practice_area",
   "transaction",
+  "responsible_solicitor",
+  "solicitor_name",
   "team",
   "legal_team",
   "matter_information",
@@ -35,8 +37,7 @@
   "section_break_26",
   "amended_from",
   "cost_center",
-  "company",
-  "responsible_solicitor"
+  "company"
  ],
  "fields": [
   {
@@ -224,10 +225,19 @@
    "label": "Responsible Solicitor",
    "options": "Employee",
    "reqd": 1
+  },
+  {
+   "depends_on": "responsible_solicitor",
+   "fetch_from": "responsible_solicitor.employee_name",
+   "fetch_if_empty": 1,
+   "fieldname": "solicitor_name",
+   "fieldtype": "Data",
+   "label": "Solicitor Name",
+   "read_only": 1
   }
  ],
  "links": [],
- "modified": "2020-07-07 14:29:41.886224",
+ "modified": "2020-07-11 22:57:10.353771",
  "modified_by": "Administrator",
  "module": "Case Management",
  "name": "Matter",

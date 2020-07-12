@@ -30,7 +30,7 @@ def get_data(filters):
 
     # open_date, matter, client , status , practice_area , close_date
     sql = "select open_date, name, client , status , practice_area , close_date ,\
- 				responsible_solicitor, matter_information from `tabMatter` WHERE {0}"
+ 				solicitor_name, matter_information from `tabMatter` WHERE {0}"
     data = frappe.db.sql(sql.format(conditions))
     return data
 

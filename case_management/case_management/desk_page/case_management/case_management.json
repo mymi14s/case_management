@@ -23,7 +23,7 @@
  "idx": 0,
  "is_standard": 1,
  "label": "Case Management",
- "modified": "2020-07-07 22:32:08.235930",
+ "modified": "2020-07-11 22:19:21.498873",
  "modified_by": "Administrator",
  "module": "Case Management",
  "name": "Case Management",
@@ -32,8 +32,11 @@
  "pin_to_top": 0,
  "shortcuts": [
   {
+   "color": "#7575ff",
+   "icon": "fa fa-gavel",
    "label": "Matter",
    "link_to": "Matter",
+   "stats_filter": "{}",
    "type": "DocType"
   },
   {
