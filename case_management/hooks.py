@@ -4,11 +4,11 @@ from . import __version__ as app_version
 
 app_name = "case_management"
 app_title = "Case Management"
-app_publisher = "masonarmani38@gmail.com"
+app_publisher = "masonarmani38@gmail.com, mymi14s@gmail.com"
 app_description = "Case Management"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "masonarmani38@gmail.com"
+app_email = "masonarmani38@gmail.com, mymi14s@gmail.com"
 app_license = "MIT"
 
 # Includes in <head>
