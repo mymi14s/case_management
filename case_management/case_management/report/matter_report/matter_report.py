@@ -1,4 +1,4 @@
-# Copyright (c) 2013, masonarmani38@gmail.com and contributors
+# Copyright (c) 2013, masonarmani38@gmail.com, Anthony Emmanuel and contributors
 # For license information, please see license.txt
 
 from __future__ import unicode_literals
